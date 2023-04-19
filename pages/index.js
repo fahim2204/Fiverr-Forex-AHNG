@@ -1,6 +1,9 @@
 import Head from "next/head";
+import Contact from "../components/contact";
+import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import Newsletter from "../components/newsletter";
+import Services from "../components/services";
 
 export default function Home() {
   return (
@@ -13,10 +16,11 @@ export default function Home() {
 
       <main>
         <div className="bg-hero">
-          <div className="max-w-screen-xl mx-auto px-6">
-            <Navbar />
-            <Newsletter />
-          </div>
+          <Navbar />
+          <Newsletter />
+          <Services />
+          <Contact />
+          <Footer />
         </div>
       </main>
     </div>
