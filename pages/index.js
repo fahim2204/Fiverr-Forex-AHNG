@@ -4,6 +4,7 @@ import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import Newsletter from "../components/newsletter";
 import Services from "../components/services";
+import Slider from "../components/slider";
 
 export default function Home() {
   return (
@@ -17,11 +18,12 @@ export default function Home() {
       <main>
         <div className="bg-hero">
           <Navbar />
+          <Slider />
           <Newsletter />
-          <Services />
-          <Contact />
-          <Footer />
         </div>
+        <Services />
+        <Contact />
+        <Footer />
       </main>
     </div>
   );

@@ -18,7 +18,7 @@ export default function Services() {
   ];
   return (
     <>
-      <div className="max-w-screen-xl mx-auto px-6 py-16 mt-5 text-alpha-800 font-alpha grid grid-cols-3 bg-white">
+      <div className="max-w-screen-xl mx-auto px-6 py-16 mt-5 text-alpha-800 font-alpha gap-6 grid md:grid-cols-3 bg-white">
         {ServicesList.map((item, index) => {
           return (
             <div className="flex flex-col">
